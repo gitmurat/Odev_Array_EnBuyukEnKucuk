@@ -29,7 +29,7 @@
             Console.WriteLine("Sayılarınızı girin");
             for (int i = 0; i < dizi_boyu; i++)
             {
-                Console.Write(i + ". Sayı: ");
+                Console.Write(i+1 + ". Sayı: ");
                 dizi[i] = int.Parse(Console.ReadLine());
             }
             return dizi;
